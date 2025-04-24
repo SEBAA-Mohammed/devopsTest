@@ -33,3 +33,4 @@ jobs:
         name: JUnit Tests
         path: target/surefire-reports/*.xml
         reporter: java-junit
+        fail-on: 'skipped'
