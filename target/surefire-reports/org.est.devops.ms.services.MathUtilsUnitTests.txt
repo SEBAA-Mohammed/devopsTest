@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.est.devops.ms.services.MathUtilsUnitTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.156 s <<< FAILURE! -- in org.est.devops.ms.services.MathUtilsUnitTests
+org.est.devops.ms.services.MathUtilsUnitTests.testDivision -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at org.est.devops.ms.services.MathUtils.division(MathUtils.java:20)
+	at org.est.devops.ms.services.MathUtilsUnitTests.testDivision(MathUtilsUnitTests.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
