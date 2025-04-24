@@ -1,1 +1,5 @@
+org\est\devops\ms\services\MathUtilsUnitTests.class
+org\est\devops\ms\services\PorteMonnaieTest.class
+org\est\devops\ms\tp3\TestUnitaire.class
+org\est\devops\ms\services\SommeArgentMultiplicationTest.class
 org\est\devops\ms\services\SommeArgentTest.class

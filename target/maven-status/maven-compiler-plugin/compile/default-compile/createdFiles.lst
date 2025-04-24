@@ -1,3 +1,8 @@
 org\est\devops\ms\services\MathUtils.class
-org\est\devops\ms\App.class
+org\est\devops\ms\tp3\NotificationService.class
 org\est\devops\ms\services\SommeArgent.class
+org\est\devops\ms\tp3\EnrollmentService.class
+org\est\devops\ms\services\PorteMonnaie.class
+org\est\devops\ms\tp3\Student.class
+org\est\devops\ms\App.class
+org\est\devops\ms\tp3\Course.class
