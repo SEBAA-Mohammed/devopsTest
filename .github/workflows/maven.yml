@@ -23,9 +23,10 @@ jobs:
     - name: Build and run tests
       run: mvn clean test
 
-    - name: Upload test reports
+    - name: Report Test Results in GitHub UI
       if: always()
-      uses: actions/upload-artifact@v4
+      uses: dorny/test-reporter@v1
       with:
-        name: junit-test-results
-        path: target/surefire-reports/
+        name: JUnit Tests
+        path: target/surefire-reports/*.xml
+        reporter: java-junit
