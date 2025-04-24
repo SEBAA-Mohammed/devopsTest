@@ -33,6 +33,14 @@ public class SommeArgent {
                 this.devise.equals(autre.devise);
     }
 
+    public SommeArgent add(SommeArgent autre) {
+        if (!this.devise.equals(autre.devise)) {
+            throw new IllegalArgumentException("Les devises doivent être identiques !");
+        }
+        return new SommeArgent(this.montant + autre.montant,
+                this.devise);
+    }
+
     @Override
     public String toString() {
         return montant + " " + devise;
